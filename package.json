@@ -1,0 +1,21 @@
+{
+  "name": "linux-wasm-netproxy",
+  "version": "0.1.0",
+  "description": "WebSocket to TCP/UDP proxy (Wisp) for Linux on WebAssembly",
+  "license": "MIT",
+  "type": "module",
+  "private": true,
+  "bin": {
+    "linux-wasm-netproxy": "server.mjs"
+  },
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node test.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "ws": "8.22.1"
+  }
+}
